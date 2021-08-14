@@ -7,13 +7,16 @@ intents = discord.Intents.default()
 intents.members = True
 bot = commands.Bot(command_prefix="$", intents=intents)
 
+roles_prefix = 'Нация: '
 
 def make_nation_role(nation):
-    return f'from {nation}'
+    global roles_prefix
+    return f'{roles_prefix}{nation}'
 
 
 def is_it_nation_role(nation_role_name):
-    if nation_role_name[:4] == 'from':
+    global roles_prefix
+    if nation_role_name[:len(roles_prefix)] == roles_prefix:
         return True
     return False
 
