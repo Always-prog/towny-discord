@@ -9,11 +9,11 @@ Create a bot in discord, make invite link for him. Invite your discord bot as ad
 
 <h1>Second step</h1>
 Configure file config.yaml.
-In <code>url</code> field put a url where we can get JSON of map, for example: ```https://map1.minetown.ru/up/world/world/```.
-In `bot_token` field put the token of your discord bot, it looks like: `ODc1NzMwNjDFSczMwNDU2NjA3.YRZxtg.tUv4xAkwdOtx8SQ4jaoBRH3MZDg`
+In <code>url</code> field put a url where we can get JSON of map, for example: <code>https://map1.minetown.ru/up/world/world/</code>
+In <code>bot_token</code> field put the token of your discord bot, it looks like: <code>ODc1NzMwNjDFSczMwNDU2NjA3.YRZxtg.tUv4xAkwdOtx8SQ4jaoBRH3MZDg</code>
 
 <h1>Finally!</h1>
-Invite your bot, run command `$update` and then all users in the chat will be updated by nations!
+Invite your bot, run command <code>$update</code> and then all users in the chat will be updated by nations!
 
 
 <h2>User needs to have nickname in discord server the same in minecraft!</h2>
