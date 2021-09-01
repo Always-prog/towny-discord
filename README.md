@@ -13,7 +13,7 @@ In <code>url</code> field put a url where we can get JSON of map, for example: <
 In <code>bot_token</code> field put the token of your discord bot, it looks like: <code>ODc1NzMwNjDFSczMwNDU2NjA3.YRZxtg.tUv4xAkwdOtx8SQ4jaoBRH3MZDg</code>
 
 <h1>Finally!</h1>
-Invite your bot, run command <code>$update</code> and then all users in the chat will be updated by nations!
+Run command <code>$update</code> and then all users in the chat will be updated by nations!
 
 
 <h2>User needs to have nickname in discord server the same in minecraft!</h2>
