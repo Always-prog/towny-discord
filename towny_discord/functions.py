@@ -7,7 +7,8 @@ intents = discord.Intents.default()
 intents.members = True
 bot = commands.Bot(command_prefix="$", intents=intents)
 
-roles_prefix = 'Нация: '
+roles_prefix = 'Nation: '
+
 
 def make_nation_role(nation):
     global roles_prefix
@@ -20,6 +21,7 @@ def is_it_nation_role(nation_role_name):
         return True
     return False
 
+
 async def remove_nation_roles(user):
     for role in user.roles:
         if is_it_nation_role(role.__str__()):
@@ -27,6 +29,8 @@ async def remove_nation_roles(user):
             member = bot.get_user(user.id)
 
             await user.remove_roles(role)
+
+
 @bot.event
 async def on_ready():
     print("Logged in as")
@@ -52,7 +56,7 @@ async def update(ctx):
             player = players.get(player_nick2)
         if not player:
             await remove_nation_roles(user)  # if user don't has nickname of some player,  
-                                             # we will remove all nation roles from him
+            # we will remove all nation roles from him
             continue
         nation = player.get('nation')
 
