@@ -17,3 +17,4 @@ Run command <code>$update</code> and then all users in the chat will be updated 
 
 
 <h2>User needs to have nickname in discord server the same in minecraft!</h2>
+If you have problems in run this bot, you can write me in Telegram: @always_prog
