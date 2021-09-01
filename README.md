@@ -9,7 +9,7 @@ Create a bot in discord, make invite link for him. Invite your discord bot as ad
 
 <h1>Second step</h1>
 Configure file config.yaml.
-In `url` field put a url where we can get JSON of map, for example: `https://map1.minetown.ru/up/world/world/`.
+In ```url``` field put a url where we can get JSON of map, for example: ```https://map1.minetown.ru/up/world/world/```.
 In `bot_token` field put the token of your discord bot, it looks like: `ODc1NzMwNjDFSczMwNDU2NjA3.YRZxtg.tUv4xAkwdOtx8SQ4jaoBRH3MZDg`
 
 <h1>Finally!</h1>
