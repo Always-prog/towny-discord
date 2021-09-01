@@ -5,7 +5,7 @@ It's bot for a plugin in minecraft: https://www.spigotmc.org/resources/towny-adv
 
 This bot can manage nation roles in discord, ** and for this it can use only online map!**
 <h1>First step</h1>
-Create a bot in discord, make invite link for him. Invite your discord bot as administrator in your discord server.
+Create a bot in discord, make invite link for him. Invite that bot as administrator in your discord server.
 
 <h1>Second step</h1>
 Configure file config.yaml.
