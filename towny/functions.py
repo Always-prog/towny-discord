@@ -34,8 +34,6 @@ def parse_desc(desc):
 	# getting nation
 	nation =regioninfo.findAll('span')[7].text.replace('Нация: ','')
 
-
-    # getting players
 	players_raw = regioninfo.findAll('span')[27]
 	players_raw = players_raw.text.split(':')[1:][0]
 	for player in players_raw.split(','):
@@ -48,7 +46,7 @@ def parse_desc(desc):
 	'players':players,
 	'settings': settings
 	}
-	
+	# getting players
 
    
 	'''elitecrew'''
